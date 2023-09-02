@@ -5,14 +5,12 @@ import (
 	"math"
 )
 
-func main() {
+func FindTrailingZerosAmount() {
 	var example int = 12
-
-	fmt.Print(FindTrailingZerosAmount(example))
-
+	fmt.Print(Zeros(example))
 }
 
-func FindTrailingZerosAmount(number int) int {
+func Zeros(number int) int {
 	var maxBound = Log(5, float64(number))
 	numberOfTrailingZeros := 0
 

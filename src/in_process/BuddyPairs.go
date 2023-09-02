@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func TestBuddyPairs() {
 	start := time.Now()
 	result := Buddy(57345, 90061)
 	fmt.Println(result)
