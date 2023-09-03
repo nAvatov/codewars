@@ -1,4 +1,4 @@
-package main
+package in_process
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ func TestBuddyPairs() {
 	fmt.Println(time.Since(start).Seconds())
 }
 
-//57345, 90061
+// 57345, 90061
 // Find all sums of each number between start and limit
 // After that try to search second number
 func Buddy(start, limit int) []int {

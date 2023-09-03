@@ -1,5 +1,9 @@
 package main
 
+import (
+	onGoingKatas "codewars/src/in_process"
+)
+
 func main() {
-	TestBuddyPairs();
+	onGoingKatas.TestBuddyPairs()
 }

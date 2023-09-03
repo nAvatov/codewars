@@ -1,4 +1,4 @@
-package main
+package ky5
 
 import (
 	"fmt"
